@@ -1,0 +1,70 @@
+body {
+  background-color: black;
+}
+
+.content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 1300px;
+}
+
+.logo {
+  display: block;
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.about {
+  position: relative;
+  right: -920px;
+  top: -90px;
+}
+
+.services {
+  position: relative;
+  right: -1050px;
+  top: -130px;
+}
+
+.contact {
+  position: relative;
+  right: -1150px;
+  top: -170px;
+}
+
+.about-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  padding: 20px;
+  border: black 1px solid;
+  border-radius: 10px;
+  background: #1d57a4;
+}
+
+.about-paragraph {
+  color: white;
+  text-align: left;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+.local {
+  width: 500px;
+  border-radius: 8px;
+  margin-top: 10px;
+  object-fit: cover;
+  border: 2px solid white;
+}
+
+.services-section {
+  margin-left: 20px;
+}
+
+.footer {
+  text-align: center;
+  font-style: italic;
+  padding: 5px;
+  margin-top: 20px;
+}
