@@ -15,22 +15,41 @@ body {
   margin-bottom: 20px;
 }
 
-.about {
-  position: relative;
-  right: -920px;
-  top: -90px;
+.logo img {
+  display: block;
+  width: 120px;
+  margin-left: -50px;
 }
 
-.services {
-  position: relative;
-  right: -1050px;
-  top: -130px;
+.menu {
+  overflow: hidden;
 }
 
-.contact {
-  position: relative;
-  right: -1150px;
-  top: -170px;
+.menu a {
+  float: inline-start;
+  color: #1d57a4;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 14px 16px;
+  margin-top: -20px;
+  display: flex;
+}
+
+.menu-items a {
+  float: inline-end;
+  display: flex;
+  margin-top: 70px;
+  padding: 14px 16px;
+}
+
+.menu-items a:hover {
+  background-color: #ddd;
+  color: #1d57a4;
+}
+
+li {
+  list-style: none;
 }
 
 .about-section {
@@ -39,8 +58,9 @@ body {
   grid-gap: 10px;
   padding: 20px;
   border: black 1px solid;
-  border-radius: 10px;
+  border-radius: 5px;
   background: #1d57a4;
+  margin-top: -20px;
 }
 
 .about-paragraph {
@@ -48,6 +68,30 @@ body {
   text-align: left;
   max-width: 600px;
   line-height: 1.5;
+  font-size: 18px;
+}
+
+.about-paragraph-two {
+  display: block;
+  margin: 15px auto;
+}
+
+.contact-kate-button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #1d57a4;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
+  transition: all 150ms ease-in-out;
+}
+
+.contact-kate-button:hover {
+  background: #38b6ff;
+  color: white;
+  cursor: pointer;
 }
 
 .local {
