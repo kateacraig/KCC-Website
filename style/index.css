@@ -59,7 +59,7 @@ li {
   padding: 20px;
   border: black 1px solid;
   border-radius: 5px;
-  background: #1d57a4;
+  background: #295273;
   margin-top: -20px;
 }
 
@@ -95,7 +95,8 @@ li {
 }
 
 .local {
-  width: 500px;
+  width: 100%;
+  height: 100%;
   border-radius: 8px;
   margin-top: 10px;
   object-fit: cover;
