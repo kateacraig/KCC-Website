@@ -190,10 +190,30 @@ ul li:hover {
   }
 }
 
+p {
+  text-align: center;
+  color: #295273;
+  font-size: 80px;
+}
+
 footer {
   text-align: center;
   font-style: italic;
   padding: 5px;
   margin-top: 40px;
   color: #295273;
+}
+
+.contact-information {
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+.coded-by {
+  padding: 20px;
+}
+
+.coded-by a {
+  text-decoration: none;
 }
