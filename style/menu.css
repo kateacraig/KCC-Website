@@ -13,10 +13,10 @@ body {
 
 .content {
   background: white;
-  padding: 20px;
+  padding: 20px 0;
   border-radius: 10px;
   max-width: 1300px;
-  margin: 20px auto;
+  margin: 20px;
 }
 
 :root {
@@ -135,7 +135,6 @@ header a {
 header {
   padding: 0 20px;
   height: 120px;
-  margin-bottom: 30px;
 }
 
 .brand {
@@ -160,7 +159,7 @@ ul li {
   margin-left: 10px;
   font-size: 24px;
   font-weight: 500;
-  margin-top: -60px;
+  margin-top: -40px;
 }
 
 ul li:hover {
@@ -180,86 +179,4 @@ ul li:hover {
   .hamburger-menu {
     display: none;
   }
-}
-
-.about-section {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
-  padding: 20px;
-  border: black 1px solid;
-  border-radius: 5px;
-  background: #295273;
-  margin-top: -20px;
-}
-
-.about-paragraph {
-  color: white;
-  text-align: left;
-  max-width: 600px;
-  line-height: 1.5;
-  font-size: 18px;
-}
-
-.about-paragraph-two {
-  display: block;
-  margin: 15px auto;
-}
-
-.contact-kate-button {
-  display: block;
-  margin: 0 auto;
-  padding: 10px 20px;
-  font-size: 18px;
-  color: #1d57a4;
-  background-color: white;
-  border-radius: 30px;
-  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
-  transition: all 150ms ease-in-out;
-}
-
-.contact-kate-button:hover {
-  background: #38b6ff;
-  color: white;
-  cursor: pointer;
-}
-
-.local {
-  width: 100%;
-  height: 100%;
-  border-radius: 8px;
-  margin-top: 10px;
-  object-fit: cover;
-  border: 2px solid white;
-}
-
-.services-section {
-  margin-left: 20px;
-}
-
-.image-gallery {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 10px;
-}
-
-.image-gallery img {
-  width: 100%;
-  height: 100%;
-  border-radius: 8px;
-  margin-top: 10px;
-  object-fit: cover;
-  transition: all 250ms ease-in-out;
-  cursor: pointer;
-}
-
-.image-gallery img:hover {
-  transform: scale(1.3);
-}
-
-.footer {
-  text-align: center;
-  font-style: italic;
-  padding: 5px;
-  margin-top: 20px;
 }

@@ -8,37 +8,33 @@
   </head>
   <body>
     <div class="content">
-      <div class="menu">
-        <nav>
-          <ul class="topnav">
-            <li>
-              <a class="logo" href="index.html"
-                ><img src="images/logo.png" alt="Kate Craig Consulting Logo"
-              /></a>
-            </li>
-            <span class="menu-items">
-              <li><a href="contact.html">Contact Kate</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a class="active" href="index.html">Home</a></li>
-            </span>
+      <header>
+        <div class="brand">
+          <a class="logo-icon" href="index.html"
+            ><img src="images/logo.png" alt="logo" class="logo"
+          /></a>
+        </div>
+        <nav class="main-menu">
+          <ul class="brand">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
-        <nav class="mobile-nav">
-          <div class="hamburger-icon">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-            <div class="bar4"></div>
-            <ul class="mobile-menu">
-              <li><a class="active" href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="contact.html">Contact Kate</a></li>
-            </ul>
-          </div>
-        </nav>
-      </div>
+        <label class="hamburger-menu" onclick="toggleMobileMenue(this)">
+          <input type="checkbox" />
+        </label>
+        <aside class="sidebar">
+          <nav class="mobile-nav">
+            <div><a href="index.html">Home</a></div>
+            <div><a href="about.html">About</a></div>
+            <div><a href="services.html">Services</a></div>
+            <div><a href="contact.html">Contact</a></div>
+          </nav>
+        </aside>
+      </header>
+
       <div class="about-section">
         <img
           src="images/local.jpg"
@@ -69,8 +65,10 @@
         <img src="images/politicalconsulting.png" alt="Political Consulting" />
         <img src="images/training.png" alt="Training" />
       </div>
+
       <footer class="footer">Coded by Kate Craig</footer>
     </div>
+
+    <script src="script/index.js"></script>
   </body>
-  <script src="script/index.js"></script>
 </html>
