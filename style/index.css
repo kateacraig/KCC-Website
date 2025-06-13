@@ -13,9 +13,9 @@ body {
 
 .content {
   background: white;
-  padding: 20px;
+  padding: 30px;
   border-radius: 10px;
-  max-width: 1300px;
+  max-width: 1200px;
   margin: 20px auto;
 }
 
@@ -135,7 +135,7 @@ header a {
 header {
   padding: 0 20px;
   height: 120px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .brand {
@@ -172,6 +172,12 @@ ul li:hover {
 
 @media only screen and (max-width: 600px) {
   header .main-menu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  main {
     display: none;
   }
 }
