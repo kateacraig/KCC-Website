@@ -29,7 +29,7 @@ body {
   --background: #295273;
   --hamburger-top: 120px;
   --hamburger-right: 50px;
-  --sidebar-top: 100px;
+  --sidebar-top: -30px;
   --animation-timing: 200ms ease-in-out;
   --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
 }
@@ -113,9 +113,9 @@ body {
   margin-top: calc(var(--sidebar-top) + var(--hamburger-right));
   background-color: var(--hamburger-background);
   color: var(--hamburger-foreground);
-  min-height: 100vh;
-  padding: 0.5rem 1rem;
-  line-height: 1.5;
+  height: 100vh;
+  padding: 1rem 1.5rem;
+  line-height: 2;
 }
 
 .hamburger-menu:has(input:checked) + .sidebar {
@@ -269,5 +269,6 @@ ul li:hover {
   text-align: center;
   font-style: italic;
   padding: 5px;
-  margin-top: 20px;
+  margin-top: 40px;
+  color: #295273;
 }
