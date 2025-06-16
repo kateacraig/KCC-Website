@@ -221,7 +221,10 @@ p {
   display: flow-root;
   background: white;
   color: #295273;
-  padding: 10px;
+  border: 1px solid #295273;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .website-development-image {
@@ -230,10 +233,81 @@ p {
   width: 190px;
   border: 1px solid white;
   border-radius: 10px;
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 20px;
 }
 
 .website-development p {
+  margin-left: 1em;
+}
+
+.editing {
+  display: flow-root;
+  background: #295273;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.editing-image {
+  float: left;
+  height: 400px;
+  width: 190px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.editing p {
+  margin-left: 1em;
+}
+
+.political-consulting {
+  display: flow-root;
+  background: white;
+  color: #295273;
+  border: 1px solid #295273;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.political-consulting-image {
+  float: right;
+  height: 400px;
+  width: 190px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.political-consulting p {
+  margin-left: 1em;
+}
+
+.training {
+  display: flow-root;
+  background: #295273;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.training-image {
+  float: left;
+  height: 400px;
+  width: 190px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.training p {
   margin-left: 1em;
 }
 
