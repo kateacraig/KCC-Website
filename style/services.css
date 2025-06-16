@@ -211,10 +211,20 @@ ul li:hover {
   margin-left: 1em;
 }
 
+.digital-marketing-list li {
+  list-style-type: circle;
+  font-size: 18px;
+}
+
+.digital-marketing ul {
+  display: inline-block;
+}
+
 p {
   font-size: 18px;
   line-height: 1.5;
   font-weight: 300;
+  margin: 10px;
 }
 
 .website-development {
