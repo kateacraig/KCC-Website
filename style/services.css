@@ -319,11 +319,41 @@ footer {
   color: #295273;
 }
 
-.contact-information {
-  font-style: normal;
-  font-size: 20px;
-  line-height: 1.25;
+.contact-methods {
+  display: grid;
+  grid-template-columns: 150px 150px;
+  grid-gap: 20px;
+  justify-content: center;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
   margin-bottom: 40px;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #1d57a4;
+  background-color: white;
+  border-radius: 30px;
+  border: 1px solid #295273;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
+  transition: all 150ms ease-in-out;
+}
+
+button:hover {
+  background: #38b6ff;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.button1 a {
+  text-decoration: none;
+}
+
+.button2 a {
+  text-decoration: none;
 }
 
 .coded-by {
