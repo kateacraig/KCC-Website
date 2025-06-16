@@ -190,10 +190,51 @@ ul li:hover {
   }
 }
 
+.digital-marketing {
+  display: flow-root;
+  background: #295273;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.digital-marketing-image {
+  float: left;
+  height: 400px;
+  width: 190px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.digital-marketing p {
+  margin-left: 1em;
+}
+
 p {
-  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+.website-development {
+  display: flow-root;
+  background: white;
   color: #295273;
-  font-size: 80px;
+  padding: 10px;
+}
+
+.website-development-image {
+  float: right;
+  height: 400px;
+  width: 190px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.website-development p {
+  margin-left: 1em;
 }
 
 footer {
