@@ -297,6 +297,7 @@ button {
   color: #1d57a4;
   background-color: white;
   border-radius: 30px;
+  border: 1px solid #295273;
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
   transition: all 150ms ease-in-out;
 }
