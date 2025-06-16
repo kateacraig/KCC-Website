@@ -139,7 +139,7 @@ header a {
 header {
   padding: 0 20px;
   height: 120px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .brand {
@@ -168,7 +168,7 @@ ul li {
   margin-left: 10px;
   font-size: 24px;
   font-weight: 500;
-  margin-top: -100px;
+  margin-top: -60px;
 }
 
 ul li:hover {
@@ -188,88 +188,6 @@ ul li:hover {
   .hamburger-menu {
     display: none;
   }
-}
-
-.about-section {
-  display: flow-root;
-  border: black 1px solid;
-  border-radius: 5px;
-  background: #295273;
-  margin-top: -20px;
-}
-
-.about-paragraph {
-  color: white;
-  text-align: left;
-  line-height: 1.5;
-  font-size: 18px;
-  margin: 20px;
-}
-
-.about-paragraph-two {
-  display: block;
-  margin: 15px auto;
-}
-
-.contact-kate-button {
-  display: block;
-  margin: 0 auto;
-  margin-top: 20px;
-  padding: 10px 20px;
-  font-size: 18px;
-  color: #1d57a4;
-  background-color: white;
-  border-radius: 30px;
-  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
-  transition: all 150ms ease-in-out;
-}
-
-.contact-kate-button:hover {
-  background: #38b6ff;
-  color: white;
-  cursor: pointer;
-  transform: scale(1.1);
-}
-
-.button-contact-kate a {
-  text-decoration: none;
-}
-
-.local {
-  width: 250px;
-  height: 150px;
-  float: left;
-  border-radius: 8px;
-  margin-top: 10px;
-  object-fit: cover;
-  border: 2px solid white;
-  margin: 20px;
-}
-
-.services-section {
-  margin-left: 20px;
-}
-
-.image-gallery {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 10px;
-  border: 1px solid white;
-}
-
-.image-gallery img {
-  width: 100%;
-  height: 100%;
-  border-radius: 8px;
-  margin-top: 10px;
-  object-fit: cover;
-  transition: all 250ms ease-in-out;
-  cursor: pointer;
-  border: 1px solid white;
-}
-
-.image-gallery img:hover {
-  transform: scale(1.1);
 }
 
 footer {
