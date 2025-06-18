@@ -190,6 +190,18 @@ ul li:hover {
   }
 }
 
+.slogan {
+  text-align: center;
+  font-size: 44px;
+  color: white;
+  transition-timing-function: ease;
+  transition-duration: 0.9s;
+  transition-delay: 1.5s;
+  transition-property: opacity;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
 .about-section {
   display: flow-root;
   border: black 1px solid;
