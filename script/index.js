@@ -4,10 +4,10 @@ function toggleMobileMenu(menu) {
 
 function changeMenu() {
   let body = document.querySelector("body");
-  if (body.classList.contains("hidden")) {
-    body.classList.remove("hidden");
+  if (body.classList.contains(".hidden")) {
+    body.classList.remove(".hidden");
   } else {
-    body.classList.add("hidden");
+    body.classList.add(".hidden");
   }
 }
 
