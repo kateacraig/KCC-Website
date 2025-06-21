@@ -142,6 +142,7 @@ body {
 
 .hidden .hamburger-menu:has(input:checked) + .sidebar {
   translate: 0;
+  opacity: 0;
 }
 
 header a {
