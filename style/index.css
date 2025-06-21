@@ -107,6 +107,12 @@ body {
   width: 0;
 }
 
+.hidden .hamburger-menu input:checked {
+  opacity: 0;
+  width: 0;
+  display: none;
+}
+
 .sidebar .hidden {
   transition: translate var(--animation-timing);
   translate: 150%;
@@ -131,6 +137,10 @@ body {
 }
 
 .hamburger-menu:has(input:checked) + .sidebar {
+  translate: 0;
+}
+
+.hidden .hamburger-menu:has(input:checked) + .sidebar {
   translate: 0;
 }
 
