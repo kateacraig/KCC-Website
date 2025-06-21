@@ -113,7 +113,8 @@ body {
 
 .sidebar {
   transition: translate var(--animation-timing);
-  translate: 150%;
+  translate: translateX(0);
+  position: fixed;
   margin-top: calc(var(--sidebar-top) + var(--hamburger-right));
   background-color: var(--hamburger-background);
   color: var(--hamburger-foreground);
