@@ -107,15 +107,7 @@ body {
   width: 0;
 }
 
-.hidden .sidebar {
-  transition: translate var(--animation-timing);
-  translate: 150%;
-  margin-top: calc(var(--sidebar-top) + var(--hamburger-right));
-  background-color: var(--hamburger-background);
-  color: var(--hamburger-foreground);
-  height: 100vh;
-  padding: 1rem 1.5rem;
-  line-height: 2;
+.hidden {
   opacity: 0;
 }
 
