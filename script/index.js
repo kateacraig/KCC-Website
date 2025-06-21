@@ -1,3 +1,7 @@
 function toggleMobileMenu(menu) {
-  menu.classList.toggle("open");
+  menu.classList.slideToggle("open");
+}
+
+function toggleSidebar(menu) {
+  menu.classList.slideToggle("open");
 }
