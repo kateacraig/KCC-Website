@@ -107,13 +107,8 @@ body {
   width: 0;
 }
 
-.hidden .hamburger-menu input:checked {
-  opacity: 0;
-  width: 0;
-  display: none;
-}
-
-.hidden .sidebar {
+.hidden,
+.sidebar {
   transition: translate var(--animation-timing);
   translate: 150%;
   margin-top: calc(var(--sidebar-top) + var(--hamburger-right));
@@ -136,13 +131,14 @@ body {
   line-height: 2;
 }
 
+.hidden,
 .hamburger-menu:has(input:checked) + .sidebar {
   translate: 0;
+  opacity: 0;
 }
 
-.hidden .hamburger-menu:has(input:checked) + .sidebar {
+.hamburger-menu:has(input:checked) + .sidebar {
   translate: 0;
-  opacity: 0;
 }
 
 header a {
