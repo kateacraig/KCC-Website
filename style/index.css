@@ -118,7 +118,7 @@ body {
   line-height: 2;
 }
 
-.hamburger-menu:has(input:checked) + .sidebar {
+.hidden .hamburger-menu:has(input:checked) + .sidebar {
   translate: 0;
 }
 
