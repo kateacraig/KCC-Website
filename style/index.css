@@ -113,7 +113,7 @@ body {
   display: none;
 }
 
-.sidebar .hidden {
+.hidden .sidebar {
   transition: translate var(--animation-timing);
   translate: 150%;
   margin-top: calc(var(--sidebar-top) + var(--hamburger-right));
