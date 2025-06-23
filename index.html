@@ -23,14 +23,11 @@
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
-        <label
-          class="hamburger-menu"
-          id="hamburger"
-          onclick="toggleMobileMenu(menu)"
-        >
-          <input type="checkbox" />
+        <label class="hamburger-menu">
+          <input type="checkbox" id="hamburger" onchange="toggleMobileMenu()" />
         </label>
-        <aside class="sidebar" onclick="toggleSidebar(menu)">
+
+        <aside class="sidebar" id="sidebar">
           <nav class="mobile-nav">
             <div><a href="index.html">Home</a></div>
             <div><a href="about.html">About</a></div>

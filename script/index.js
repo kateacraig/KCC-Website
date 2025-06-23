@@ -1,15 +1,12 @@
-function toggleMobileMenu(menu) {
-  menu.classList.slideToggle("open");
-}
+function toggleMobileMenu() {
+  const checkbox = document.getElementById("hamburger");
+  const sidebar = document.getElementById("sidebar");
 
-function toggleSidebar(menu) {
-  menu.classList.slideToggle("open");
+  if (checkbox.checked) {
+    sidebar.classList.add("active");
+    document.body.style.overflow = "hidden"; // Optional: lock scroll
+  } else {
+    sidebar.classList.remove("active");
+    document.body.style.overflow = ""; // Unlock scroll
+  }
 }
-
-$(document).ready(function () {
-  // Select the element that will trigger the toggle (e.g., a menu button)
-  $("#hamburger").click(function () {
-    // Select the navigation menu element to be toggled
-    $(".sidebar").toggleClass("active"); // 'fast', 'slow', or a number in milliseconds
-  });
-});
