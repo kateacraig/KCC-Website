@@ -144,10 +144,6 @@ ul li:hover {
     right: 0;
   }
 
-  aside.sidebar {
-    display: none;
-  }
-
   .hamburger-menu {
     display: flex;
     flex-direction: column;

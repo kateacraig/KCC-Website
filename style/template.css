@@ -29,7 +29,8 @@ body {
   --background: #295273;
   --hamburger-top: 120px;
   --hamburger-right: 50px;
-  --sidebar-top: -30px;
+  --sidebar-top: 90px;
+  --sidebar-right: -160px;
   --animation-timing: 200ms ease-in-out;
   --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
 }
@@ -79,7 +80,7 @@ header a {
 header {
   padding: 0 20px;
   height: 120px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .brand {
@@ -93,6 +94,7 @@ header {
 
 nav ul li {
   color: #295273;
+  margin-bottom: 20px;
 }
 
 ul {
@@ -126,12 +128,24 @@ ul li:hover {
   .sidebar {
     transition: translate var(--animation-timing);
     translate: 150%;
-    margin-top: calc(var(--sidebar-top) + var(--hamburger-right));
     background-color: var(--hamburger-background);
     color: var(--hamburger-foreground);
+    margin-top: 10px;
+    margin-left: -30px;
     height: 100vh;
+    width: 530px;
     padding: 1rem 1.5rem;
     line-height: 2;
+    border-radius: 5px;
+    border-left: 1px solid white;
+  }
+
+  .sidebar.active {
+    right: 0;
+  }
+
+  aside.sidebar {
+    display: none;
   }
 
   .hamburger-menu {
