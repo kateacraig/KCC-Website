@@ -263,12 +263,15 @@ ul li:hover {
   margin-top: 20px;
 }
 
-.about-section {
-  display: flow-root;
+.about {
   border: black 1px solid;
   border-radius: 5px;
   background: #295273;
   margin-top: -20px;
+}
+
+.about-section {
+  display: flow-root;
 }
 
 .about-paragraph {
@@ -288,6 +291,7 @@ ul li:hover {
   display: block;
   margin: 0 auto;
   margin-top: 20px;
+  margin-bottom: 20px;
   padding: 10px 20px;
   font-size: 18px;
   color: #1d57a4;
