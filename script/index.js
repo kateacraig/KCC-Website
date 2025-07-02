@@ -22,12 +22,10 @@ window.onload = function () {
 
   function cycleText() {
     cyclingTextElement.textContent = textArray[currentIndex];
-    currentIndex = (currentIndex + 1) % textArray.length; // Loop back to start
+    currentIndex = (currentIndex + 1) % textArray.length;
   }
 
-  // Display the first text immediately
   cycleText();
 
-  // Cycle text every 3 seconds
   setInterval(cycleText, 3000);
 };
