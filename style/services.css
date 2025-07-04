@@ -391,6 +391,10 @@ p {
   margin-left: 1em;
 }
 
+strong {
+  font-weight: 900;
+}
+
 footer {
   text-align: center;
   font-style: italic;
