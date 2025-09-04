@@ -1,7 +1,25 @@
+.content {
+  margin: 20px auto;
+}
+
+.container {
+  width: 90%; /* flexible width */
+  max-width: 1000px;
+  margin: 20px auto;
+  margin: 0 auto;
+}
+
 body {
   margin: 0 auto;
   font-family: Arial, sans-serif;
-  width: 1000px;
+  max-width: 1000px;
+}
+
+.logo {
+  display: block;
+  width: 75px;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 header {
@@ -16,6 +34,7 @@ h2 {
   text-align: center;
   font-weight: 400;
   font-size: 20px;
+  margin-top: -20px;
 }
 
 .webinar {
@@ -231,4 +250,62 @@ button:hover {
 
 .coded-by a {
   text-decoration: none;
+}
+
+/* Default: desktop-first styles */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .hero-text {
+    font-size: 1.5rem;
+  }
+
+  .credentials {
+    margin-top: 40px;
+}
+
+/* Phones */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text {
+    font-size: 1.2rem;
+  }
+  .cta-button {
+    width: 100%; /* full width button for easy tapping */
+  }
+
+  .credentials {
+    margin-top: 40px;
+  }
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+.features {
+  display: flex;
+  gap: 20px;
+}
+.features > div {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .features {
+    flex-direction: column;
+  }
+
+  .credentials {
+    margin-top: 40px;
 }
